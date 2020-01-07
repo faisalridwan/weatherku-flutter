@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class LocationNotifier with ChangeNotifier {  LocationNotifier();  String _locNow = 'Bandung';  String get getLoc => _locNow;  void setLoc(String locData) async {    _locNow = locData;    notifyListeners();  }}
