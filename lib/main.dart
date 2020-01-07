@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
 
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider.value(value: LocationNotifier()),
+        ChangeNotifierProvider.value(value: LocationNotifier('Bandunggg')),
         ChangeNotifierProvider(builder: (_) => WeatherBloc()),
 
       ],
